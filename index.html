@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Resume PDF</title>
+  <link rel="stylesheet" href="view/styles/app.css">
+</head>
+<body class="page-index">
+  <div class="frame">
+    <header class="site-header">
+      <h1>Resume PDF</h1>
+      <div class="actions">
+        <a href="editor.html" class="nav" id="edit-nav" aria-disabled="true" tabindex="-1" title="Open the web editor (only when this page is served from localhost)">Edit</a>
+        <a href="resume.pdf" download="resume.pdf">Download</a>
+        <button type="button" id="print-btn">Print</button>
+      </div>
+    </header>
+    <main>
+      <iframe id="pdf" src="resume.pdf" title="Resume PDF preview"></iframe>
+    </main>
+    <footer class="site-footer" aria-hidden="true"></footer>
+  </div>
+  <script src="view/index.js" defer></script>
+</body>
+</html>

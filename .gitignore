@@ -1,0 +1,10 @@
+/target/
+/controller/target/
+
+.passphrase
+
+# models_vault: ciphertext (*.enc) may be committed; any other file (e.g. local decrypt) stays untracked
+models_vault/**
+!models_vault/**/
+!models_vault/*.enc
+!models_vault/**/*.enc

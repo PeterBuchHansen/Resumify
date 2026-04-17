@@ -1,0 +1,107 @@
+use_photo: true
+show_skill_ratings: true
+some_profiles:
+- url: https://www.linkedin.com/in/john-doe-demodata-dk
+  label: linkedin.com/in/john-doe-demodata-dk
+  icon: linkedin
+- url: https://github.com/johndoe-demodata-dk
+  label: github.com/johndoe-demodata-dk
+  icon: github
+languages:
+- name: Danish
+  level: Native
+- name: English
+  level: C1 / Advanced
+- name: German
+  level: A2 / Elementary
+certifications:
+- '*Professional Scrum Master I (fictional)* · Danish Agile Network, 2022.'
+- '*EU data protection for developers* · Business Academy (demo course), 2021.'
+skills:
+- category: Backend & integration
+  rating: 5
+  items:
+  - name: C# / .NET
+    enabled: true
+    bold: true
+  - name: TypeScript
+    enabled: true
+    bold: false
+  - name: Python
+    enabled: true
+    bold: false
+  - name: REST / webhooks
+    enabled: true
+    bold: true
+  - name: Message queues
+    enabled: true
+    bold: false
+  - name: OpenAPI
+    enabled: true
+    bold: false
+- category: Data & operations
+  rating: 4
+  items:
+  - name: PostgreSQL
+    enabled: true
+    bold: true
+  - name: SQL Server
+    enabled: true
+    bold: false
+  - name: Managed cloud (EU regions)
+    enabled: true
+    bold: false
+  - name: Docker
+    enabled: true
+    bold: true
+  - name: Kubernetes
+    enabled: true
+    bold: false
+  - name: CI/CD (pipelines)
+    enabled: true
+    bold: false
+- category: Quality & collaboration
+  rating: 4
+  items:
+  - name: Code review
+    enabled: true
+    bold: false
+  - name: Test automation
+    enabled: true
+    bold: true
+  - name: Mentoring
+    enabled: true
+    bold: false
+  - name: Facilitation / workshops
+    enabled: true
+    bold: false
+- category: Domain
+  rating: 3
+  items:
+  - name: Public sector
+    enabled: true
+    bold: false
+  - name: Logistics / wholesale
+    enabled: true
+    bold: false
+  - name: Energy / utilities
+    enabled: true
+    bold: false
+awards:
+- '*Volunteer IT helper of the year · Aarhus Sports Council (demo data), 2013.*'
+- '*HackMidt — 1st place “smart city” track (fictional), 2019.*'
+references:
+  show_contact_info: true
+  entries:
+  - name: Mette Nielsen
+    phone: +45 22 11 33 44
+    url: https://www.linkedin.com/in/mette-nielsen-demodata
+    label: linkedin.com/in/mette-nielsen-demodata
+    text: |-
+      Former team lead at Skovgaard & Høj A/S (2019–2022).
+      Now IT director at a fictional mid-sized manufacturing company.
+  - name: Lars Holm
+    phone: +45 30 99 88 77
+    url: https://www.linkedin.com/in/lars-holm-demodata
+    label: linkedin.com/in/lars-holm-demodata
+    text: Architect at Nordlys Analytics ApS — collaboration on platform and security.

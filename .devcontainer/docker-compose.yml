@@ -1,0 +1,22 @@
+# Dev Containers: devcontainer.json "shutdownAction": "stopCompose" stops this project when you
+# disconnect (not the same as `docker compose down` — use that on the host to remove containers).
+name: resumify
+
+services:
+  resumify:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    container_name: resumify
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - ..:/workspaces/Resumify:cached
+    command: sleep infinity
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge

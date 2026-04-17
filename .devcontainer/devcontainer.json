@@ -1,0 +1,24 @@
+{
+  "name": "Resumify — Rust + Typst + IDE PDF preview",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "resumify",
+  "workspaceFolder": "/workspaces/Resumify",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "nvarner.typst-lsp",
+        "tomoki1207.pdf"
+      ],
+      "settings": {
+        "files.associations": {
+          "*.typ": "typst",
+          "*.typst": "typst"
+        },
+        "typst-lsp.exportPdf": "never"
+      }
+    }
+  },
+  "postCreateCommand": "bash -c 'set -e; typst --version'",
+  "postAttachCommand": "bash -c 'set -e; typst --version; bash /workspaces/Resumify/controller/run-editor-server.sh'",
+  "shutdownAction": "stopCompose"
+}

@@ -1,3 +1,12 @@
+> **This project is licensed under the GNU General Public License (GPL).**<br>
+> If you like this repository and want to use it yourself, **feel free to fork it**.<br>
+> This allows you to keep up with upstream changes while maintaining your own version.<br>
+> __You can customize the theme and content to suit your preferences and your Résumé,__<br>
+> __make edits, and maintain your own Git history for your `models_vault`.__<br>
+> **You can also use GitHub Pages to host your own CV.**<br>
+><br>
+> **Contributions are welcome! Feel free to open issues or submit pull requests.**
+
 # Resumify
 
 **Resumify** is a streamlined, containerized project for creating professional résumés with a web-based live editor and instant PDF preview. 
